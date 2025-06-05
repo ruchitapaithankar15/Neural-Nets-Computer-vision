@@ -58,24 +58,3 @@ In addition to your code, you _must_ include the following items:
 
 Call your python file `hw2.py` and zip it, along with your example images and `ReadMe.pdf`, into an archive called `DREXELID_hw_1.zip` where `DREXELID` is your `abc123` alias. DO NOT include _any_ other files.
 
-# Grading
-Because tux has limited hardware, and to encourage you to explore more complex ideas if you would like, this assignment does not need to run on tux to be graded. If you'd like to explore GPU-based training, you can try Google Colab for free (https://colab.research.google.com/).
-
-To avoid runtime errors:
-* do no import any libraries (this is a requirement)
-* do not rely on environment variables
-* do not hard code any paths into your program
-
-The assignment is worth 15 points and will be graded as follows:
-* 2 points for correctly implementing a single linear layer network
-* 2 points for correctly implementing the multi-layer perceptron (MLP) network
-* 2 points for correctly implementing the convolutional network
-* 1 point for correctly implementing learning rate scheduling
-* 1 point for implementing data augmentations
-* 7 points for completing the report
-
-Extra Credit Options:
-* 1 point: implement equalized learning rate and compare the results in the report
-* 1 point: implement a state-of-the-art network (check https://paperswithcode.com/sota/image-classification-on-cifar-10 for state-of-the-art network architectures)
-* 1 point: do something really interesting. You must describe the technique and results in the report.
-
